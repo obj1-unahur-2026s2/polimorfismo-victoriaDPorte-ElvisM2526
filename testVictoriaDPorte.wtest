@@ -2,3 +2,29 @@ import atletas.*
 import elementos.*
 import disciplinas.*
 
+describe "casos de prueba con Victoria D. Porte" {
+  test "Victoria arranca con presupuesto inicial de tenis" {
+    assert.equals(600, victoria.presupuesto())
+  }
+   
+  test "Victoria quiere parecer Pareto(150 de altura)" {
+    victoria.cambiarAltura(150)
+    victoria.cambiarDisciplina(judo)
+    victoria.cambiarElemento(judogi)
+    assert.equals(365, victoria.presupuesto())
+  }
+
+  test "Victoria quiere parecerse a Delpo" {
+    victoria.cambiarDisciplina(tenis)
+    victoria.cambiarAltura(210)
+    victoria.cambiarElemento(raqueta)
+    tenis.cambiarEntrenadores(2)    
+    assert.equals(580, victoria.presupuesto())
+  }
+
+  test "Victoria practica judo usando raqueta" {
+    victoria.cambiarDisciplina(judo)
+    victoria.cambiarElemento(raqueta)
+    assert.equals(485, victoria.presupuesto())
+  }
+}
