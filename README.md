@@ -60,19 +60,19 @@ Se pide:
 
 **Métodos**
 
-- altura
-- cambiarAltura
+- altura +
+- cambiarAltura +
 - cambiarCantidadDeInvitados
-- cambiarDisciplina
-- cambiarElemento
+- cambiarDisciplina +
+- cambiarElemento +
 - cambiarEntrenadores
 - cantidadDeInvitados
-- costoElemento
-- cumplirAnios
-- edad
+- costoElemento +
+- cumplirAnios +
+- edad +    
 - entrenadores
 - medallasDeJudoGanadas
-- presupuesto
-- presupuestoDisciplina
+-  presupuesto +
+-  presupuestoDisciplina +
 - sumarUnaMedallaDeJudoGanada
-- valorPorEntrenador
+- valorPorEntrenador +
