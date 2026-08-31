@@ -62,17 +62,17 @@ Se pide:
 
 - altura +
 - cambiarAltura +
-- cambiarCantidadDeInvitados
+- cambiarCantidadDeInvitados +
 - cambiarDisciplina +
 - cambiarElemento +
-- cambiarEntrenadores
-- cantidadDeInvitados
+-  cambiarEntrenadores +
+- cantidadDeInvitados +
 - costoElemento +
 - cumplirAnios +
 - edad +    
-- entrenadores
-- medallasDeJudoGanadas
+- entrenadores +
+- medallasDeJudoGanadas +
 -  presupuesto +
 -  presupuestoDisciplina +
-- sumarUnaMedallaDeJudoGanada
+- sumarUnaMedallaDeJudoGanada +
 - valorPorEntrenador +
